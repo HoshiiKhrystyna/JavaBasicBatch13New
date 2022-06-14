@@ -11,13 +11,13 @@ public class SyntaxEmployee {
         se.salary=13000;
         System.out.println("ID no "+se.empID);
         System.out.println("Salary is "+se.salary);
-        System.out.println("CEO "+ SyntaxEmployee.CEO);
+        System.out.println("CEO "+CEO);
 
         SyntaxEmployee se2=new SyntaxEmployee();
         se2.empID=13;
         se2.salary=15000;
         System.out.println("ID no "+ se2.empID);
         System.out.println("Salary is "+se2.salary);
-        System.out.println("CEO "+ SyntaxEmployee.CEO);
+        System.out.println("CEO "+CEO);
     }
 }
