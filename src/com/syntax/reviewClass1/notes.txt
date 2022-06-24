@@ -1,0 +1,41 @@
+3 tipes variables in java:
+local, instance, static
+
+local:
+the variables that we declared inside a block of code
+upSide: they occupy the memory for shortest period of time
+downSide: they can't be accessed outside that block of code in which they are declared
+
+Instance:
+are the variables that are declared inside a class, but outside a block of code;
+upSide: can be accessed in all the methods of a class. they  can have different values for each instance of a class
+d
+Static:
+all the variables which are defined outside a block of code with static keyword they
+are called static variables
+
+upside:
+they only reserve a single memory location for all the instances of a class
+they can be accessed by just writing the name of the class and variable name;
+downside: the occupy th e memory for longest period of the time they always store
+only one value
+real lifee used
+Most of the time you will be storing constant value in static variables
+static is also used with method that don't involve instance variables
+
+Access modifiers: there are 3 access modifier keywords (privat, protected,public)and 4 access levels(private
+public,protected,default) in java
+rules:
+
+access modifiers can used only with instance and staticmembers of class(fields
+and methods)
+private:
+when we use private with any methods or variables we can only access that method or
+variables in that class
+real life use: 99% instance fields are always private;
+methods are public;
+
+
+default is not a keyword;
+we can access that member inside the same class inside the same package in other classes
+public: whe we use public with members of a class is aviable throughout that project.

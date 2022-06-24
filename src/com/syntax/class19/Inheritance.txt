@@ -1,0 +1,59 @@
+Constructor
+
+Constructor is a block of code that is used to construct object.
+Why we should use constructor
+Constructor help us initialize object in cleaner and more readable way;
+They are better then methods because they are called automatically when we create an object
+
+Most of time fields are private and because of this reason we can't access
+ them outside of the class in which they are declared and can't initialize them
+ How to use Constructor:
+ We create the constuctor by writing  a block of code that hase same name as a class name.
+ When we create the object of the class it is called automatically.
+
+ Rules:
+ 1. constructor don't have return types not even void;
+ 2. should have the same name as a class
+ 3. can have access modifiers like private public and protected
+ 4.can't have non access modifiers like static final synchronized
+ 5.default constructor is provided by java if we don't write one.
+ 6. when we create the object of a class then a Constructor is called. for example
+ if the class name is Dog  : Dog dog1=new Dog();
+ 7. we can create multiple constructor to give the other users  flexibility
+ that they don't have to provide all the values to all the instance fields when creating
+ an object of our class;
+ 8. we can vall the constructor of a class by using this keyword with parenthesis
+this() WE CAN PASS PARAMITERS AND JAVA WILL DECIDE BASED ON THESE PARAMITERES
+which constructor to call.
+
+
+this keyword-
+When ever we can same name variables as instance variables and local variables
+ this keyword can help us resolve the conflict between local and instance variables;
+class Human{
+String name="sleeping zoombe";
+void printName(){
+String name="wake up zoombe";
+System.out.println(this.name);// sleeping zombee
+System.out.println(name);// wake zombee
+}
+}
+
+Inheritance in java
+Inheritance is a mechanism in Java through which we can get the properties
+and methods from the Parent class inside the child class;
+Why we should use inheritance:
+Inheritance helps us reduce the amount of code that we have to write for example if there are
+some properties and methods which are present in many different classes we can create a parent class
+for all of those properties and can put the common properties or method inside that parent class and can make
+children classes extend from that parent class.
+
+How we can use:
+1.Create a parent class
+2.put all the common methods and properties from children classes inside that parent class
+3.use extends keyword to inherit from that parent class.
+
+Rules:
+
+1.private fields and private methods can't be
+
