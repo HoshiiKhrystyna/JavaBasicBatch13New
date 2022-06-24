@@ -22,5 +22,9 @@ public class Hospital {
         doc.hospital="Mayo Clinic";
         doc.work();
         doctor.work();
+        System.out.println("--------------------");
+        doctor.treat("Samantha");
+
+        Doctor.study("Harvard");
     }
 }

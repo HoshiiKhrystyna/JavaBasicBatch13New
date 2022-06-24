@@ -1,12 +1,14 @@
 package com.syntax.reviewClass2;
 
 public class Doctor {
-    String name,lastName,speciality;
+  public  String name;
+   public  String lastName;
+  protected  String speciality;
     int experience;
-    double salary;
-    static String hospital;
+   private double salary;
+    public static String hospital;
 
-    Doctor(String name, String lastName){
+  public  Doctor(String name, String lastName){
         this.name=name;
         this.lastName=lastName;
     }
@@ -17,10 +19,20 @@ public class Doctor {
         this.experience=experience;
     }
 
-    void printInfo(){
+    public void printInfo(){
         System.out.println("Doctor name is "+name+" "+lastName+" and speciality is "+speciality);
     }
-    void work(){
+    protected void work(){
         System.out.println("Doctor name is "+name+" "+lastName+" works at "+hospital);
+    }
+    void treat(String patientName){
+        this.printInfo();
+        System.out.println(" treats patient "+patientName);
+    }
+    private void getPaid(){
+        System.out.println("Doctor "+lastName+" gets pass "+salary);
+    }
+     public static void study(String university){
+        System.out.println("Doctor studied at "+university+" and now works at "+hospital);
     }
 }
