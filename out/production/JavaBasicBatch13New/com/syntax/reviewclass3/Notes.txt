@@ -1,0 +1,80 @@
+
+OOPS is just a way to writing code a methodology a set of rules that we follow
+when we write code. In this methodology we create classes and objects of those
+classes to represent everything from real life.
+We also have :
+1.functional programming
+2.procedural programming
+
+Four Pillars of OOPS:
+1. inheritance
+2.polimorphizm
+3.abstractions
+4.encapsulation
+Some of the benefits of OOPs:
+1. code re-usability
+2.cleaner code
+3.more flexibility
+4.less code
+5.enforcing rules and hiding the complexity and only focusing on the idea;
+6.secure code
+
+1. inheritance-is a mechanizm in java through which a class can acquire the
+properties(attributes, fields)and methods from another class
+Why we should use:
+if a piece of code is already present in a class instead of reriting it or copying it
+we can extend our class from that class and we will get all the non private
+methods and fields that class. It can save a lot of time.It also good for performence
+reasons.
+Disadvantages of inheritance:
+1. we get unwanted code as well when we inherit from a class
+2. classes are tightly coupled(shchilno zednani) which means if we change something
+in the parent class it affect all the child class
+How can we use inheritance:
+we use the extends keyword to inherit the classes
+class Parent {
+String name;
+void printName(){
+}}
+class Child extends Parent{
+}
+Rules:
+1. inheritance is one way from parent to child
+2.in java we can't inherit from multiple classes
+3.final classes can't be inherited.classes which are declared with final keyword
+are called final classes
+4. private members (fields and methods)are not inherited
+5.constructors are not inherited but we can use super keyword.
+6.child classes must provide a matching constructor
+Types:
+1.single(one parent, one child)
+2.multilevel(when we have a parent and a child class and one or may intermediate classes)
+3.hierarchial(single parent and multiple child classes)
+4.multiple (not supported in java)
+5.hibryd(multilevel + hierarchial)
+==============================================================
+Super keyword: we use to referparent class fields methods or constructors
+Why we should use super keyword:
+1.if we have same name fields inside the parent class and child class we can use super
+keyword to distinquish(rozriznyaty) this fields
+2.we can use the super() to call the constructor of the parent class as they are not
+inherited
+3.if we have same name methods inside the parent and the child class we can use super
+keyword to call the method from the parent class
+
+================================================
+Method overloading
+whenever same name method exist in a class with different parameters
+Why we should use:
+it helps us write more cleaner and more readeable code and also provide the flexibility to have
+same name method in a class
+How to create overloading:
+create same method name,but make sure this differs in the number of parameters, or in data type of
+parameters, or in sequence of parameters
+Rules:
+1.method name same, but parameters to be defferent
+2.by just changing the return type we can't overload a method
+3.we can't overload by just changing access modifiers(private,public,protected,default)
+and non access modifiers(final static,abstract);
+4.we can also overload constructor in the same manner as we do for methods
+5.
