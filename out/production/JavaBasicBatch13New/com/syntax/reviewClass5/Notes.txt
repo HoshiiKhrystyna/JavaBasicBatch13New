@@ -1,0 +1,21 @@
+Method Overriding:
+When same method exists in parent and child class
+Why we should use:
+Same method can behave differently on different objects. It allows
+us to achieve polimorphism
+What is the syntax to achieve method overriding:
+Redefine the method with same header inside the child class.
+Rules:
+1. There should inheritance between classes.
+2.Method header should be same (access modifiers return type method
+name parameters).
+3. we can't ovveride the private methods because private methods
+don't participate in inheritance.
+4. constructors can't be ovverriden because they also don't
+participate in inheritance
+5.we can only increase the visibility of a method inside the child class
+but we can't decrease it for example if a method is declared
+protected or default we can change it to public, but we can't
+do the reverse.
+6. we can't ovveride static methods, we say we have declared the static method
+7.

@@ -1,0 +1,35 @@
+What is a List:
+List is an interface inside the collections framework which have below properties
+1) Insertion order(poryadok vstavky)  is maintained.(zberihayetsya)
+2)I can store duplicate data;
+List is implemented by many classes, but we will be focusing on ArrayList and
+LinkedList:
+ArrayList:
+when my requirement is that i will be reading the data a lot then
+i should going with ArrayList.
+LinkedList:
+Most of operations will be writing the data to a list in between or in the start
+or shifting the data we should be going with LinkedList.
+Iterator:
+is an interface that has three methods hasNext() and remove()
+whenever we try to modify the size of a list using simple loop
+there are chance that it will not work or will through an error because
+lists are dynamic and can change the size at runtime, so to be always on the safe
+side we should use Iterator.
+===================================================================
+Set:
+1.duplicates are not allowed
+We wiil be disscussing three types of sets:
+1.HashSet   2.LinkedHashSet; 3.TreeSet
+HashSet:
+No insertion order is maintained but it is the fastest of all;
+LinkedHashSet:
+insertion order
+==========================================================
+Map
+Map is an interface in java that allow us store key value pairs
+we can't have duplicate keys but we can have duplicate values .
+We will
+
+HashMap:
+Upside:
